@@ -9,12 +9,12 @@ Format your response in markdown to make it easier to render to a web page
 `
 
 
-const API_KEY = import.meta.env.VITE_APP_HF_API_KEY;
+//const API_KEY = import.meta.env.VITE_APP_HF_API_KEY;
 console.log("API Key:", API_KEY);
 
 
 
-const hf = new HfInference(import.meta.env.VITE_APP_HF_API_KEY)
+//const hf = new HfInference(import.meta.env.VITE_APP_HF_API_KEY)
 
 export async function getRecipeFromMistral(ingredientsArr) {
     const ingredientsString = ingredientsArr.join(", ")
